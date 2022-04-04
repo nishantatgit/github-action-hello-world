@@ -9,9 +9,7 @@ hello_world_job:
     id: hello
     uses: nishantatgit/hello-world-js-action@v1.1
     with:
-     who-to-greet: 'Nishant Kuamar'
-					
+     who-to-greet: 'Nishant Kuamar'	
   - name: Get the output time
     id: outputtime
     run: echo "The time was ${{steps.hello.outputs.time}}"
-			
