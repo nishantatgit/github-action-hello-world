@@ -1,17 +1,17 @@
 on: [push]
 
 jobs: 
-	hello_world_job:
-		runs-on: ubuntu-latest
-		name: A job to say hello
-		steps: 
-			-	name: Hello World action setup
-				id: hello
-				uses: nishantatgit/hello-world-js-action@v1.1
-				with:
-					who-to-greet: 'Nishant Kuamar'
+hello_world_job:
+ runs-on: ubuntu-latest
+ name: A job to say hello
+ steps: 
+  - name: Hello World action setup
+    id: hello
+    uses: nishantatgit/hello-world-js-action@v1.1
+    with:
+     who-to-greet: 'Nishant Kuamar'
 					
-			-	name: Get the output time
-				id: outputtime
-				run: echo "The time was ${{steps.hello.outputs.time}}"
+  - name: Get the output time
+    id: outputtime
+    run: echo "The time was ${{steps.hello.outputs.time}}"
 			
