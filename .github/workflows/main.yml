@@ -7,7 +7,7 @@ jobs:
   steps: 
    - name: Welcome Greetings! 
      id: hello
-     uses: nishantatgit/github-action-hello-world@v1.2
+     uses: nishantatgit/github-action-hello-world@v1.4
      with:
       who-to-greet: 'Nishant Kuamar Shreevastav'
       inputList:
