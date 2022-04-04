@@ -7,7 +7,7 @@ jobs:
   steps: 
    - name: Hello World action setup
      id: hello
-     uses: nishantatgit/hello-world-js-action@v1.1
+     uses: nishantatgit/github-action-hello-world@v1.1
      with:
       who-to-greet: 'Nishant Kuamar'	
    - name: Get the output time
