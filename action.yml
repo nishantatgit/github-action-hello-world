@@ -5,6 +5,9 @@ inputs:
   description: 'who to greet'
   required: true
   default: 'World'
+ inputList:
+  description: 'list to login'
+  required: false
 outputs:
  time:
   description: 'The time we greeted you'
