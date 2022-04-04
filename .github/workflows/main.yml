@@ -5,11 +5,11 @@ jobs:
   runs-on: ubuntu-latest
   name: A job to say hello
   steps: 
-   - name: Hello World action setup
+   - name: Welcome Greetings! 
      id: hello
      uses: nishantatgit/github-action-hello-world@v1.2
      with:
-      who-to-greet: 'Nishant Kuamar'	
+      who-to-greet: 'Nishant Kuamar Shreevastav'	
    - name: Get the output time
      id: outputtime
      run: echo "The time was ${{steps.hello.outputs.time}}"
