@@ -10,7 +10,7 @@ jobs:
      uses: nishantatgit/github-action-hello-world@v1.4
      with:
       who-to-greet: 'Nishant Kuamar Shreevastav'
-      inputList: [ javascript , HTML5]
+      inputList: '[ javascript , HTML5]'
    - name: Get the output time
      id: outputtime
      run: echo "The time was ${{steps.hello.outputs.time}}"
