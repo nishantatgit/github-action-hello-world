@@ -11,10 +11,10 @@ jobs:
      with:
       who-to-greet: 'Nishant Kuamar Shreevastav'
       inputList:
-        - javascript
-        - HTML5
-        - CSS3
-        - React	
+        - 'javascript'
+        - 'HTML5'
+        - 'CSS3'
+        - 'React'	
    - name: Get the output time
      id: outputtime
      run: echo "The time was ${{steps.hello.outputs.time}}"
