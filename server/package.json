@@ -1,0 +1,18 @@
+{
+  "name": "per-second-payments-server",
+  "version": "0.1.0",
+  "description": "MVP backend for the short-form, per-second-viewer-payout video platform (see ../PLATFORM_PLAN.md)",
+  "private": true,
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "supertest": "^7.0.0"
+  }
+}
